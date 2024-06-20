@@ -1,7 +1,9 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react';
 import './Foreground.css'
 
 const Foreground = () => {
+    const [cursorStyle, setCursorStyle] = useState('cursor-blue'); // Initial cursor style
+    const cursorStyles = ['cursor-blue', 'cursor-green', 'cursor-red', 'cursor-a', 'cursor-b', 'cursor-c', 'cursor-d', 'cursor-e', 'cursor-f', 'cursor-g', 'cursor-h', 'cursor-i', 'cursor-j', 'cursor-k']; 
 
     return (
         
