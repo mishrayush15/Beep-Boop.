@@ -9,6 +9,6 @@ The Cursor Color Changer website dynamically updates the cursor color to enhance
 ## How It Works
 
 1. **Initial Cursor Style**: The website starts with an initial cursor MEME.
-2. **Color Change Interval**: Every 5 seconds, the cursor style changes to the next MEME in the list. 
+2. **Meme Change Interval**: Every 2 seconds, the cursor style changes to the next MEME in the list. 
 3. **Implementation**: This is achieved using React's `useState` and `useEffect` hooks to manage the state and interval logic.
 
